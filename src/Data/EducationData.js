@@ -1,0 +1,32 @@
+export const educationData = [
+  {
+    id: 1,
+    institution: 'Malla Reddy Engineering College',
+    degree: 'B.Tech, CSE-Cyber Security',
+    period: '2022 – 2026',
+    grade: 'CGPA: 8.03',
+    location: 'Hyderabad, India',
+    details: 'Pursuing B.Tech degree in Compurt Science and Engineering-Cyber Security with focus on software development, Cryptography, and machine learning.',
+    logo: '/Portfolio/images/mrec_logo.png',
+  },
+  {
+    id: 2,
+    institution: 'Jawahar Navodaya Vidyalaya',
+    degree: 'Higher Secondary',
+    period: '2019 – 2021',
+    grade: 'Percentage: 89.8%',
+    location: 'Karimnagar, Telangana, India',
+    details: 'Completed higher secondary education with excellence in mathematics and computer science.',
+    logo: '/Portfolio/images/jnv_logo.png',
+  },
+  {
+    id: 3,
+    institution: 'Jawahar Navodaya Vidyalaya',
+    degree: 'Secondary School',
+    period: '2018 – 2019',
+    grade: 'Percentage: 92.2%',
+    location: 'Karimnagar, Telangana, India',
+    details: 'Achieved an extraordinary percentage in secondary school with a strong foundation in science and mathematics.',
+    logo: '/Portfolio/images/jnv_logo.png',
+  },
+];
