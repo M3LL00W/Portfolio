@@ -17,7 +17,7 @@ function AboutData() {
               transition={{ delay: 0.3 }}
             >
               <Typography variant="h5" gutterBottom fontWeight={600}>
-                Aspiring Software Developer Engineer
+                Aspiring Software Development Engineer
               </Typography>
               
               <Typography paragraph sx={{ mb: 3 }}>

@@ -31,7 +31,7 @@ export const skillCategories = [
     {
       name: 'Machine Learning',
       icon: <AIIcon fontSize="large" />,
-      skills: ['Classical ML', 'Deep Learning', 'Neural Networks', 'Hyper Parameter Tuning'],
+      skills: ['Classical ML', 'Neural Networks', 'Hyper Parameter Tuning'],
     },
     {
       name: 'CS Fundamentals',

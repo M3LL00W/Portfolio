@@ -6,7 +6,7 @@ export const educationData = [
     period: '2022 – 2026',
     grade: 'CGPA: 8.03',
     location: 'Hyderabad, India',
-    details: 'Pursuing B.Tech degree in Compurt Science and Engineering-Cyber Security with focus on software development, Cryptography, and machine learning.',
+    details: 'Pursuing B.Tech degree in Computer Science and Engineering-Cyber Security with focus on software development, Cryptography, and machine learning.',
     logo: '/Portfolio/images/mrec_logo.png',
   },
   {
