@@ -20,7 +20,7 @@ const projectsData = [
     icon: <GDIcon />,
     links: {
       github: 'https://github.com/M3LL00W/GET-DOCTOR',
-      demo: null,
+      demo: 'https://get-doctor.vercel.app',
     },
   },
   // {
