@@ -4,8 +4,9 @@ import {
   GitHub as GitHubIcon,
   Language as DemoIcon,
   MedicalServices as GDIcon,
-  Web as WebIcon,
-  Storage as DBIcon,
+  Note as NoteIcon,
+  Code as OOPIcon,
+  Psychology as MLIcon
 } from '@mui/icons-material';
 
 const projectsData = [
@@ -23,34 +24,48 @@ const projectsData = [
       demo: 'https://get-doctor.vercel.app',
     },
   },
-  // {
-  //   id: 2,
-  //   title: 'Academic Analyser – Full-Stack Performance Tracker',
-  //   shortDescription: 'Role-based academic monitoring system with dynamic dashboards.',
-  //   fullDescription: 'Built a role-based academic monitoring system featuring dynamic dashboards, authentication, and CRUD APIs for educators and students to track academic progress and analytics securely.',
-  //   image: '/Portfolio/images/academic-analyser.jpg',
-  //   techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'MySQL', 'JWT', 'Bcrypt', 'ChartJS', 'REST APIs'],
-  //   category: 'Web Development',
-  //   icon: <WebIcon />,
-  //   links: {
-  //     github: ',
-  //     demo: null,
-  //   },
-  // },
-  // {
-  //   id: 3,
-  //   title: 'QuickPly – Job Application Platform',
-  //   shortDescription: 'Full-stack recruitment platform with job listings and resume handling.',
-  //   fullDescription: 'Built a full-stack recruitment system using JSP, PostgreSQL, and JDBC, featuring user authentication, CRUD operations for profiles and job listings, and resume handling via dynamic JSP-driven interfaces.',
-  //   image: '/Portfolio/images/quickply.jpg',
-  //   techStack: ['JSP', 'PostgreSQL', 'JDBC', 'HTML/CSS'],
-  //   category: 'Web Development',
-  //   icon: <DBIcon />,
-  //   links: {
-  //     github: '',
-  //     demo: null,
-  //   },
-  // },
+  {
+    id: 3,
+    title: 'Customer Churn Prediction',
+    shortDescription: 'User churn in Telecom Inductry using ML, achieving 85% accuracy ',
+    fullDescription: 'Designed and implemented a machine learning model to predict customer churn using call records, internet usage, and billing data.fAchieved 85% prediction accuracy, helping the telecom provider proactively reduce churn through personalized retention campaigns.',
+    image: '/Portfolio/images/churn.jpg',
+    techStack: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib','Django','Jupyter Noptebook'],
+    category: 'Machine Learning',
+    icon: <MLIcon />,
+    links: {
+      github: 'https://github.com/M3LL00W/Customer-Churn-Prediction',
+      demo: null,
+    },
+  },
+  {
+    id: 2,
+    title: 'Library Management System',
+    shortDescription: 'A CLI-based system developed in C++ using OOP, STL, and File I/O.',
+    fullDescription: 'Designed and implemented a role-based Library Management System in C++ using Object-Oriented Programming principles, STL data structures, and file I/O for persistent storage. Enabled librarians and members to securely manage books, track borrowing and returns, and maintain comprehensive records with efficient data handling and modular design.',
+    image: '/Portfolio/images/library-management.png',
+    techStack: ["C++", "STL", "OOP", "File I/O"],
+    category: 'Object-Oriented Programming',
+    icon: <OOPIcon />,
+    links: {
+      github: 'https://github.com/M3LL00W/LibrarySystem-OOP-CPP',
+      demo: null,
+    },
+  },
+  {
+    id: 4,
+    title: 'LUMO - Note Application',
+    shortDescription: 'A full-stack MERN note-taking app with authentication and CRUD features.',
+    fullDescription: 'Built a full-stack note-taking application using the MERN stack (MongoDB, Express, React, Node.js). The app supports user authentication (signup/login), secure CRUD operations for notes, and provides a clean, responsive UI for managing personal notes efficiently. Deployed with modern hosting solutions.',
+    image: '/Portfolio/images/lumo-noteapp.jpg',
+    techStack: ['MongoDB', 'Express', 'React', 'Node.js', 'TailwindCSS','Redis'],
+    category: 'Full Stack Development',
+    icon: <NoteIcon />,
+    links: {
+      github: 'https://github.com/M3LL00W/LUMO',
+      demo: 'https://lumo-7mtn.onrender.com',
+    },
+  },
 ];
 
 export default projectsData;

@@ -96,7 +96,7 @@ function Hero() {
                 color="textSecondary" 
                 sx={{ mb: 3, fontWeight: 500 }}
               >
-                Aspiring Software Development Engineer
+                Software Engineer | Full-Stack Developer | Machine Learning
               </Typography>
             </motion.div>
 
@@ -107,7 +107,7 @@ function Hero() {
                 sx={{ mb: 4, maxWidth: '600px', mx: isMobile ? 'auto' : 0 }}
               >
                 I specialize in Full-Stack Development and Machine Learning. 
-                Currently persuing B.Tech in  Computer Science and Engineering  at Malla Reddy Engineering College.
+                Currently persuing B.Tech in  Computer Science and Engineering.
               </Typography>
             </motion.div>
 

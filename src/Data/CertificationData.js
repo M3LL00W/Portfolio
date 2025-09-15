@@ -3,21 +3,33 @@ import {
   Security as CertificateIcon,
   Language as EducationIcon,
   Cloud as EngineeringIcon,
+  AutoAwesome as AIIcon,
 } from '@mui/icons-material';
 
 export const certificationData = [
   {
-    id: 1,
+  id: 1,
+  title: 'Microsoft Azure AI Fundamentals',
+  issuer: 'Microsoft',
+  date: '2025',
+  description:
+    'Core AI concepts, Machine Learning, Computer Vision, Natural Language Processing, Conversational AI on Azure.',
+  icon: <EngineeringIcon fontSize="large" />,
+  color: '#0078D4', // Azure brand blue
+},
+
+  {
+    id: 2,
     title: 'Cloud Computing Foundations',
     issuer: 'Google',
     date: '2024',
     description:
-      'IT infrastructure, cloud engineering, and cloud-native application development.',
+      'Cloud models, core services, virtual networking, cloud security, application deployment.',
     icon: <EngineeringIcon fontSize="large" />,
-    color: '#3a86ff', // Light mode fallback
+    color: '#fe130bff', // Light mode fallback
   },
   {
-    id: 2,
+    id: 3,
     title: 'Networking Basics',
     issuer: 'Cisco',
     date: '2024',
@@ -27,14 +39,27 @@ export const certificationData = [
     color: '#fb5607',
   },
   {
-    id: 3,
+    id: 4,
     title: 'CyberSecurity Essentials',
     issuer: 'Cisco',
     date: '2023',
     description:
-      'Certification covering cybersecurity fundamentals, best practices, and threat mitigation strategies.',
+      'Threats & Vulnerabilities, Cryptography, Network Security, Access Control, Incident Response.',
     icon: <CertificateIcon fontSize="large" />,
     color: '#38b000',
   },
+  {
+    id: 5,
+    title: 'Generative AI Fundamentals',
+    issuer: 'Google',
+    date: '2023',
+    description:
+      'Large Language Models, Prompt Design, Model Types, Transformer Architecture, Responsible AI.',
+    icon: <AIIcon fontSize="large" />,
+    color: '#8338ec',
+  },
+  
+
+
   
 ];
