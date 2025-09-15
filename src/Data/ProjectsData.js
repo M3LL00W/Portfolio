@@ -55,9 +55,9 @@ const projectsData = [
   {
     id: 4,
     title: 'LUMO - Note Application',
-    shortDescription: 'A full-stack MERN note-taking app with authentication and CRUD features.',
+    shortDescription: 'A full-stack MERN note-taking app with CRUD features.',
     fullDescription: 'Built a full-stack note-taking application using the MERN stack (MongoDB, Express, React, Node.js). The app supports user authentication (signup/login), secure CRUD operations for notes, and provides a clean, responsive UI for managing personal notes efficiently. Deployed with modern hosting solutions.',
-    image: '/Portfolio/images/lumo-noteapp.jpg',
+    image: '/Portfolio/images/lumo-noteapp.png',
     techStack: ['MongoDB', 'Express', 'React', 'Node.js', 'TailwindCSS','Redis'],
     category: 'Full Stack Development',
     icon: <NoteIcon />,

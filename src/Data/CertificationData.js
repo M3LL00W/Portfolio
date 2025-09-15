@@ -13,7 +13,7 @@ export const certificationData = [
   issuer: 'Microsoft',
   date: '2025',
   description:
-    'Core AI concepts, Machine Learning, Computer Vision, Natural Language Processing, Conversational AI on Azure.',
+    'Core AI concepts, Machine Learning, Computer Vision, Natural Language Processing.',
   icon: <EngineeringIcon fontSize="large" />,
   color: '#0078D4', // Azure brand blue
 },
@@ -26,7 +26,7 @@ export const certificationData = [
     description:
       'Cloud models, core services, virtual networking, cloud security, application deployment.',
     icon: <EngineeringIcon fontSize="large" />,
-    color: '#fe130bff', // Light mode fallback
+    color: '#00ddffff', // Light mode fallback
   },
   {
     id: 3,
